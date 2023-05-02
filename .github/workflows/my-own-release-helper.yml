@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Say hello world!
-        run: echo "${{ github.event.comment.body }}"
+        run: echo "${{ github.event }}"
         shell: bash
 
 
