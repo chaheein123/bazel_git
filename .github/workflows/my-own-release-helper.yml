@@ -7,7 +7,8 @@ jobs:
   say-hi:
     steps:
       - name: Say hello world!
-        
+        run: echo "hello world!!!!!!!!!!"
+
 
 
 
