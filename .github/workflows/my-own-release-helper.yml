@@ -1,0 +1,15 @@
+name: my-own-release-helper
+
+on:
+  issue_comment:
+  
+jobs:
+  say-hi:
+    steps:
+      - name: Say hello world!
+        
+
+
+
+
+
