@@ -1,15 +1,16 @@
 name: my-own-release-helper
 
 on:
-  issue_comment:
-    types: [created]
+  # issue_comment:
+  #   types: [created]
+  push:
   
 jobs:
   say-hi:
     runs-on: ubuntu-latest
     steps:
       - name: Say hello world!
-        run: echo "hello world!!!!!!!!!!"
+        run: echo ${{ github.event.comment.body }}
         shell: bash
 
 
