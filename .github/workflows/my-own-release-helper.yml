@@ -5,6 +5,7 @@ on:
   
 jobs:
   say-hi:
+    runs-on: ubuntu-latest
     steps:
       - name: Say hello world!
         run: echo "hello world!!!!!!!!!!"
