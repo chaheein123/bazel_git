@@ -1,7 +1,7 @@
 name: my-own-release-helper
 
 on:
-  issue_comment:
+  issue_comment: [created]
   
 jobs:
   say-hi:
