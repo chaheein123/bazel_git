@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Say hello world!
-        run: echo "${{ github.event }}"
+        run: echo "${{ toJSON(github.event) }}"
         shell: bash
 
 
