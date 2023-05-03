@@ -9,6 +9,8 @@ jobs:
   say-hi:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v3
+
       - name: Say hello world!
         run: echo "${{ toJSON(github.event) }}"
         shell: bash
